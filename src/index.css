@@ -1,3 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.sidebar-active-ul::before {
+    content: "";
+    @apply bg-gray-200 left-0 top-0 w-px absolute h-full;
+}
+
+.sidebar-active-ul li {
+    @apply cursor-pointer
+}
+
+.sidebar-active-ul .active {
+    @apply border-Sidebar2TextSelected text-Sidebar2TextSelected
+}

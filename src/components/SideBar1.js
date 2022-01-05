@@ -1,7 +1,18 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { ChevronDown, ChevronRight, ChevronUp, CreditCard, GitPullRequest, Home, Inbox, Search, Users } from 'react-feather'
 
 const SideBar1 = () => {
+    useEffect(() => {
+        Array.from(document.querySelectorAll(".sidebar1-menu div")).forEach(element => {
+            element.addEventListener("click",() => {
+                    if(!element.classList.contains("active")) {
+                        document.querySelector(".sidebar1-menu div.active").classList.remove("active")
+                        element.classList.add("active")
+                    }
+                } )
+        })
+    }, [])
+
     return (
         <nav className=' h-screen  w-20 basis-20 bg-SideBar1Bg py-5 flex flex-col justify-between'>
             <div className="">
@@ -14,14 +25,14 @@ const SideBar1 = () => {
                         <Search className=' text-Sidebar1icon1 h-4' />
                     </div>
                 </div>
-                <div className=' flex flex-col items-center space-y-1 py-7'>
+                <div className=' flex flex-col items-center space-y-1 py-7 sidebar1-menu'>
                     <div className="h-8 w-8 rounded-lg bg-transparent hover:bg-Sidebar1NavHover flex justify-center items-center">
                         <Home className=' text-white w-4' />
                     </div>
                     <div className="h-8 w-8 rounded-lg bg-transparent hover:bg-Sidebar1NavHover flex justify-center items-center">
                         <Inbox className=' text-gray-50 w-4' />
                     </div>
-                    <div className="h-8 w-8 rounded-lg bg-transparent hover:bg-Sidebar1NavHover flex justify-center items-center">
+                    <div className="active h-8 w-8 rounded-lg bg-transparent hover:bg-Sidebar1NavHover flex justify-center items-center">
                         <GitPullRequest className=' text-gray-50 w-4' />
                     </div>
                     <div className="h-8 w-8 rounded-lg bg-transparent hover:bg-Sidebar1NavHover flex justify-center items-center">

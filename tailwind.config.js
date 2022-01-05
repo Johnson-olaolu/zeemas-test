@@ -15,7 +15,7 @@ module.exports = {
         Sidebar2MenuText : "#85939D"
       },
       fontSize: {
-        xxs: "8px"
+        xxs: "10px"
       }
     },
   },

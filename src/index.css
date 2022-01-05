@@ -8,10 +8,27 @@
     @apply bg-gray-200 left-0 top-0 w-px absolute h-full;
 }
 
+.sidebar1-menu div {
+    @apply cursor-pointer;
+}
+
+.sidebar1-menu .active {
+    @apply bg-Sidebar1NavHover;
+}
+
 .sidebar-active-ul li {
     @apply cursor-pointer
 }
 
 .sidebar-active-ul .active {
     @apply border-Sidebar2TextSelected text-Sidebar2TextSelected
+}
+
+.recharts-responsive-container {
+    @apply rounded-full overflow-hidden;
+
+}
+
+.bar-chart text tspan {
+    @apply text-xs text-Sidebar2MenuText
 }

@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.3fd4eb5b.css",
+    "main.js": "/static/js/main.ba48cdf6.js",
+    "static/js/787.c923f9cf.chunk.js": "/static/js/787.c923f9cf.chunk.js",
+    "static/media/FCMB_Logo.png": "/static/media/FCMB_Logo.9e83faaef811a17ee629.png",
+    "index.html": "/index.html",
+    "main.3fd4eb5b.css.map": "/static/css/main.3fd4eb5b.css.map",
+    "main.ba48cdf6.js.map": "/static/js/main.ba48cdf6.js.map",
+    "787.c923f9cf.chunk.js.map": "/static/js/787.c923f9cf.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3fd4eb5b.css",
+    "static/js/main.ba48cdf6.js"
+  ]
+}

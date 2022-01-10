@@ -1,7 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
+@import url("./mixins.css");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+
+body {
+    font-family: "Nunito Sans";
+}
 
 .sidebar-active-ul::before {
     content: "";
@@ -14,6 +20,10 @@
 
 .sidebar1-menu .active {
     @apply bg-Sidebar1NavHover;
+}
+
+li.menu-active {
+    @apply text-Sidebar2TextSelected;
 }
 
 .sidebar-active-ul li {
@@ -30,5 +40,10 @@
 }
 
 .bar-chart text tspan {
-    @apply text-xs text-Sidebar2MenuText
+    fill : rgba(3, 41, 61, 0.5);
+    @apply text-xs text-Sidebar2MenuText mt-3
+}
+
+.bar-chart line {
+    stroke :rgba(3, 41, 61, 0.05);
 }

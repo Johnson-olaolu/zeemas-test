@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.3fd4eb5b.css",
-    "main.js": "/static/js/main.ba48cdf6.js",
+    "main.css": "/static/css/main.04ca7c53.css",
+    "main.js": "/static/js/main.d44ca77e.js",
     "static/js/787.c923f9cf.chunk.js": "/static/js/787.c923f9cf.chunk.js",
+    "static/media/FuturaLT-Bold.woff": "/static/media/FuturaLT-Bold.1a9452ec6a09e364baa1.woff",
     "static/media/FCMB_Logo.png": "/static/media/FCMB_Logo.9e83faaef811a17ee629.png",
     "index.html": "/index.html",
-    "main.3fd4eb5b.css.map": "/static/css/main.3fd4eb5b.css.map",
-    "main.ba48cdf6.js.map": "/static/js/main.ba48cdf6.js.map",
+    "main.04ca7c53.css.map": "/static/css/main.04ca7c53.css.map",
+    "main.d44ca77e.js.map": "/static/js/main.d44ca77e.js.map",
     "787.c923f9cf.chunk.js.map": "/static/js/787.c923f9cf.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3fd4eb5b.css",
-    "static/js/main.ba48cdf6.js"
+    "static/css/main.04ca7c53.css",
+    "static/js/main.d44ca77e.js"
   ]
 }
